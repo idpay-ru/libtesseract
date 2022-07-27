@@ -133,6 +133,12 @@
 		62BA6BE424AC70110097319E /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BA6B0B24AC6C340097319E /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62BA6BE924AC77DB0097319E /* libtesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BA6BE824AC77DB0097319E /* libtesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62BA6BEB24AC77DB0097319E /* libtesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BA6BE824AC77DB0097319E /* libtesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB3534528912CE6003A21F8 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB3534428912CE6003A21F8 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB3534628912CE6003A21F8 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB3534428912CE6003A21F8 /* export.h */; };
+		8ED08FC8289123B9001CD4BB /* colorfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED08FC6289123B9001CD4BB /* colorfill.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED08FC9289123B9001CD4BB /* colorfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED08FC6289123B9001CD4BB /* colorfill.h */; };
+		8ED08FCA289123B9001CD4BB /* hashmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED08FC7289123B9001CD4BB /* hashmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED08FCB289123B9001CD4BB /* hashmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED08FC7289123B9001CD4BB /* hashmap.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -197,6 +203,9 @@
 		62BA6B2D24AC6C350097319E /* renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renderer.h; sourceTree = "<group>"; };
 		62BA6B2F24AC6C350097319E /* morph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morph.h; sourceTree = "<group>"; };
 		62BA6BE824AC77DB0097319E /* libtesseract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libtesseract.h; sourceTree = "<group>"; };
+		8EB3534428912CE6003A21F8 /* export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
+		8ED08FC6289123B9001CD4BB /* colorfill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorfill.h; sourceTree = "<group>"; };
+		8ED08FC7289123B9001CD4BB /* hashmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,11 +276,14 @@
 				62BA6B0A24AC6C340097319E /* osdetect.h */,
 				62BA6B0824AC6C340097319E /* pageiterator.h */,
 				62BA6B0F24AC6C340097319E /* pix.h */,
+				8ED08FC6289123B9001CD4BB /* colorfill.h */,
+				8ED08FC7289123B9001CD4BB /* hashmap.h */,
 				62BA6B1E24AC6C350097319E /* png.h */,
 				62BA6AF824AC6C340097319E /* pngconf.h */,
 				62BA6AFD24AC6C340097319E /* pnglibconf.h */,
 				62BA6B2324AC6C350097319E /* ptra.h */,
 				62BA6B1F24AC6C350097319E /* publictypes.h */,
+				8EB3534428912CE6003A21F8 /* export.h */,
 				62BA6AFF24AC6C340097319E /* queue.h */,
 				62BA6B2124AC6C350097319E /* rbtree.h */,
 				62BA6B1624AC6C340097319E /* readbarcode.h */,
@@ -328,12 +340,14 @@
 				62BA6BD524AC70100097319E /* jbclass.h in Headers */,
 				62BA6BB324AC700E0097319E /* arrayaccess.h in Headers */,
 				62BA6BC324AC700F0097319E /* heap.h in Headers */,
+				8EB3534528912CE6003A21F8 /* export.h in Headers */,
 				62BA6BB924AC700E0097319E /* rbtree.h in Headers */,
 				62BA6BD924AC70110097319E /* ptra.h in Headers */,
 				62BA6BC924AC700F0097319E /* queue.h in Headers */,
 				62BA6BAF24AC700D0097319E /* imageio.h in Headers */,
 				62BA6BDE24AC70110097319E /* allheaders.h in Headers */,
 				62BA6BC824AC700F0097319E /* regutils.h in Headers */,
+				8ED08FCA289123B9001CD4BB /* hashmap.h in Headers */,
 				62BA6BDD24AC70110097319E /* morph.h in Headers */,
 				62BA6BC124AC700F0097319E /* capi.h in Headers */,
 				62BA6BCF24AC70100097319E /* dewarp.h in Headers */,
@@ -343,6 +357,7 @@
 				62BA6BBA24AC700E0097319E /* alltypes.h in Headers */,
 				62BA6BAA24AC700D0097319E /* environ.h in Headers */,
 				62BA6BC724AC700F0097319E /* bbuffer.h in Headers */,
+				8ED08FC8289123B9001CD4BB /* colorfill.h in Headers */,
 				62BA6BE124AC70110097319E /* pix.h in Headers */,
 				62BA6BE424AC70110097319E /* list.h in Headers */,
 				62BA6BD124AC70100097319E /* endianness.h in Headers */,
@@ -384,6 +399,7 @@
 				62BA6BEB24AC77DB0097319E /* libtesseract.h in Headers */,
 				62BA6B4024AC6C360097319E /* stringcode.h in Headers */,
 				62BA6B6A24AC6C380097319E /* morph.h in Headers */,
+				8ED08FC9289123B9001CD4BB /* colorfill.h in Headers */,
 				62BA6B4424AC6C360097319E /* watershed.h in Headers */,
 				62BA6B4A24AC6C360097319E /* pix.h in Headers */,
 				62BA6B5324AC6C370097319E /* sudoku.h in Headers */,
@@ -425,8 +441,10 @@
 				62BA6B5A24AC6C370097319E /* publictypes.h in Headers */,
 				62BA6B6824AC6C370097319E /* renderer.h in Headers */,
 				62BA6B4D24AC6C360097319E /* bmfdata.h in Headers */,
+				8ED08FCB289123B9001CD4BB /* hashmap.h in Headers */,
 				62BA6B6224AC6C370097319E /* leptwin.h in Headers */,
 				62BA6B3424AC6C350097319E /* resultiterator.h in Headers */,
+				8EB3534628912CE6003A21F8 /* export.h in Headers */,
 				62BA6B5224AC6C370097319E /* bilateral.h in Headers */,
 				62BA6B4124AC6C360097319E /* baseapi.h in Headers */,
 				62BA6B5B24AC6C370097319E /* bmp.h in Headers */,
